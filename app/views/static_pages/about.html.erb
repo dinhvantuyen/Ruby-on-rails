@@ -1,0 +1,17 @@
+<% provide:title,(t ".about") %>
+<h1><%= t ".h1" %></h1>
+<p>
+  <%= t ".p1" %>
+  <%= link_to "http://www.railstutorial.org/" do %>
+    <em>
+      <%= t ".a1" %>
+    </em>
+  <% end %>
+  <%= t ".p2" %>
+  <%= link_to t(".a2"), "http://www.railstutorial.org/book" %>
+  <%= t ".p3" %>
+  <%= link_to t(".a3"), "http://google.com" %>
+  <%= t ".p4" %>
+  <%= link_to t(".a4"), "http://rubyonrails.org/" %>
+  <%= t ".p5" %>
+</p>
