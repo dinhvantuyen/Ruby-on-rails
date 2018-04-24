@@ -61,3 +61,6 @@ en:
       h1: "Contact"
       p1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       p2: "contact page"
+    helpers:
+      title: "Ruby on Rails Tutorial Sample App"
+
