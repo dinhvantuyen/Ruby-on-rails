@@ -2,16 +2,22 @@
 <h1><%= t ".h1" %></h1>
 <p>
   <%= t ".p1" %>
-  <%= link_to "http://www.railstutorial.org/" do %>
+  <a href="http://www.railstutorial.org/">
     <em>
       <%= t ".a1" %>
     </em>
-  <% end %>
+  </a> 
   <%= t ".p2" %>
-  <%= link_to t(".a2"), "http://www.railstutorial.org/book" %>
+  <a href="http://www.railstutorial.org/book">
+    <%= t ".a2" %>
+  </a>
   <%= t ".p3" %>
-  <%= link_to t(".a3"), "http://google.com" %>
+  <a href="http://screencasts.railstutorial.org/">
+    <%= t ".a3" %>
+  </a>
   <%= t ".p4" %>
-  <%= link_to t(".a4"), "http://rubyonrails.org/" %>
+  <a href="http://rubyonrails.org/">
+    <%= t ".a4" %>
+  </a>.
   <%= t ".p5" %>
 </p>
